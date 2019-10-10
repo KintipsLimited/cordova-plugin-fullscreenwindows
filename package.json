@@ -1,17 +1,25 @@
 {
-  "name": "fullscreenwindows",
+  "name": "cordova-plugin-fullscreenwindows",
   "version": "1.0.0",
-  "description": "Windows app at fullscreen",
+  "description": "Windows Cordova Plugin to run the app at full screen.",
   "cordova": {
     "id": "cordova-plugin-fullscreenwindows",
     "platforms": [
       "windows"
     ]
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KintipsLimited/cordova-plugin-fullscreenwindows.git"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-windows"
   ],
   "author": "John Kenneth Deloso",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KintipsLimited/cordova-plugin-fullscreenwindows/issues"
+  },
+  "homepage": "https://github.com/KintipsLimited/cordova-plugin-fullscreenwindows#readme"
 }
