@@ -1,0 +1,17 @@
+{
+  "name": "fullscreenwindows",
+  "version": "1.0.0",
+  "description": "Windows app at fullscreen",
+  "cordova": {
+    "id": "cordova-plugin-fullscreenwindows",
+    "platforms": [
+      "windows"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-windows"
+  ],
+  "author": "John Kenneth Deloso",
+  "license": "ISC"
+}

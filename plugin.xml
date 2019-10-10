@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-plugin-fullscreenwindows" version="1">
+	<name>fullscreenwindows</name> 
+	<js-module name="fullscreenwindows" src="www/fullscreenwindows.js">
+		<clobbers target="cordova.plugins.fullscreenwindows"/>
+	</js-module>
+	<platform name="windows">
+		<js-module name="fullscreenwindowsproxy" src="src/windows/fullscreenwindowsproxy.js">
+			<runs target=""/>
+		</js-module>
+		<framework src="src/windows/FullscreenWindows.winmd" custom="true"/>
+	</platform>
+</plugin>
